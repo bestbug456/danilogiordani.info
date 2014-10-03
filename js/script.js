@@ -161,10 +161,17 @@ $(document).ready(
         var $nextEle="";
         setInterval(function () {
             if ($i==$MAX_ELE){
-                $($('#attr4')).toggle("slide").animate({ opacity: 0 }, 1000);
+                $($('#attr4')).fadeTo("slow", 0.00, function(){ //fade
+                     $(this).slideUp("slow", function() { //slide up
+                         $(this).remove(); //then remove from the DOM
+                     });
+                 });
                 $i=1;
                 $nextEle =$($element+$i);
-                $nextEle.animate({ opacity: 1 }, 1000).show("slide", { direction: "right" }, 1000);
+                $nextEle.fadeTo("slow", 0.00, function(){ //fade
+                     $(this).slideUp("slow", function() { //slide up
+                         $(this).remove(); //then remove from the DOM
+                     });
             }else{
                 $actualEle = $($element + $i);
                 $nextEle =$($element+($i+1));
