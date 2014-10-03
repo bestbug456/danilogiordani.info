@@ -1,7 +1,10 @@
 .whatAmI{
 	display: none;
 }
+body{
+	background-color: rgb(230, 87, 61);
 
+}
 .boxOfJob{
 	width: 60%;
     padding: 10px;
@@ -29,8 +32,6 @@
 	background-color: rgba(49, 176, 213,0.2);
 	border-radius: 5px;
 	background-size: 300px; 
-
-
 }
 
 #fixglich{
@@ -47,13 +48,13 @@
 }
 .myButton{
 	border: 3px solid;
-    border-color: rgb(49, 176, 213);
+    border-color: rgb(255, 255, 255);
     margin: 5px;
     border-radius: 5px;
 
 }
 .myButton:hover{
-	background-color: rgba(49, 176, 213,0.2);
+	background-color: rgba(255, 255, 255,0.2);
 }
 
 @media (max-width: 569px) { 
