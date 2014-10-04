@@ -49,7 +49,7 @@
           </h3>
         <div class="col-xs-12">
           <button type="button" class="btn btn-default" href="#" id="showPortfolio"><i class="fa fa-book fa-lg"></i>&nbsp; Portfolio&nbsp;</button>
-          <button type="button" class="btn btn-default" href="#" id="showLavori"><i class="fa fa-wrench fa-lg"></i>&nbsp; Lavori&nbsp;</button>
+          <button type="button" class="btn btn-default" href="#" id="showLavori"><i class="fa fa-wrench fa-lg" onclick="scrollToTag(lavori)"></i>&nbsp; Lavori&nbsp;</button>
           <button type="button" class="btn btn-default" href="#" id="showScuola"><i class="fa fa-graduation-cap fa-lg"></i>&nbsp; Carriera scolastica</button>
           <button type="button" class="btn btn-default" href="#" id="showContatti"><i class="fa fa-envelope fa-lg"></i>&nbsp; Contattami</button>
           <button type="button" class="btn btn-default" href="#" id="showChangefix"><i class="fa fa-history fa-lg"></i>&nbsp; Changefix&nbsp;</button>
@@ -58,25 +58,14 @@
       </div>
       <div class="row">
         <div id="portfolio" class="col-md-12 col-xs-12 sfondoTail text-left">
-
-          Benvenuti nel mio Portfolio!
+          <a id="anchorPortfolio"></a>
+          <p>Benvenuti nel mio Portfolio!</p>
           <p>Sono Danilo Giordani e sono (oltre quello che ho già scritto) uno studente <a href="http://www.unimi.it" target="_blank">dell'università degli studi di milano</a> oltre che co-founder di <a href="http://www.bestbugstudio.com" target="_blank">bestbugstudio</a>. Il mio colore preferito è l'arancione, amo i videogame (la mia serie preferita è bioshock) e studiare tecniche per migliorare lo sviluppo front-end dei siti web, vi chiedo scusa già da adesso se ci saranno errori di UX e/o di codice,anzi se volete segnalarmi qualcosa potete contattarmi via <a href="mailto:bestbug.corporation@gmail.com">email</a>.</br> Nel tempo libero studio UX chiedendo aiuto al mio guru personale dell'argomento <a href="http://www.michelepierangeli.com" target="_blank">Michele Pierangeli</a>. Sono nato come back-end developer in <a href="http://it.wikipedia.org/wiki/Active_Server_Pages" target="_blank">Asp</a> successivamente ho scoperto (e amato) <a href="http://it.wikipedia.org/wiki/Php" target="_blank">PHP</a> oltre che le <a href="http://it.wikipedia.org/wiki/JavaServer_Pages" target="_blank">JSP</a>.Ho studiato <a href="http://it.wikipedia.org/wiki/MySQL" target="_blank">mySQL</a> e di recente il paradigma di progettazione e programmazione per dispositivi mobili in particolare per <a href="http://it.wikipedia.org/wiki/Android" target="_blank">android</a>. Nell'estate del 2014 come bestbugstudio abbiamo deciso di affittare un <a href="http://it.wikipedia.org/wiki/Virtual_private_server" target="_blank">vps</a> per poter fare hosting i siti web da prodotti noi, mi sono occupato quindi assieme a <a href="http://www.federicomaggi.me" target="_blank">Federico Maggi</a> del setup dell'ambiente. Attualmente sto finendo i miei studi e sto studiando tecniche di progettazione e mantenimento del software. Per quanto riguarda le web tecnologies sto studiando <a href="http://it.wikipedia.org/wiki/JQuery" target="_blank">jquery</a> e come si può vedere sto implementando qualche effetto (che spero vi piaccia :D), nel Changelog ci sono le modifiche che farò per tenere traccia dell'evoluzione del sito</p>
         </div>
-        <div id="changefix" class="col-md-12 col-xs-12 sfondoTail text-left"><ul>
-          <li>30-09-2014: correzione del testo nella sezione 'portfolio' aggiunte le row di bootstrap</li>
-          <li>23-09-2014: rifatti gli effetti di fadeIn e fadeOut sia per il "chi sono" che per le varie sezioni, aggiunta sezione dei contatti e inserito le icone di awesome font</li>
-          <li>22-09-2014: Corretto il testo del portfolio e aggiornato mediaquery per gestire gli schermi dell'iphone5s</li>
-          <li>08-08-2014: Oltre che essere un giorno speculare rispetto al mese è anche il giorno in cui da mobile il logo di <a href="http://www.bestbugstudio.com">bestbugstudio</a> si vede centrato e non più spostato verso destra</li>
-          <li>07-08-2014: Fixato un problema di visualizzazione di presentazione in "chi sono": ora il div ha una dimensione fissa ed evita un fastidioso glitch, tramite le media query di bootstrap aggiorno la dimensione a seconda di pc o telefonini</li>
-          <li>07-08-2014: implementata la colonna con i lavori più importanti svolti dal 2012 ad oggi e la mia carriera scolastica</li>
-          <li>07-08-2014: implementata la responsività con <a href="http://getbootstrap.com/getting-started/#template">bootstrap</a></li>
-          <li>07-08-2014: implementata la pagina dei changefix e dei lavori fatti con <a href="http://www.bestbugstudio.com" target="_blank">bestbugstudio</a></li>
-          <li>06-08-2014: implementate le funzioni base della pagina portfolio e il "chi sono"</li>
-          
-          </ul>
-        </div>
+
 
         <div id="lavori" class="col-md-12 col-xs-12" >   
+          <a id="anchorLavori"></a>
           <div class="boxOfJob"> <p>Agosto 2014:</br> Completamento del setup del vps di <a href="http://www.bestbugstudio.com" target="_blank">bestbugstudio</a>, mi sono occupato del setup dell'ambiente impostando il server apache e le misure di sicurezza </p></div>
           <div class="boxOfJob"> <p>Luglio 2014:</br> Completamento <a href="http://marilisadamico.it" target="_blank">Marilisa D'amico</a> per <a href="http://makeitapp.eu">Makeitapp</a>. Sito web di avvocati, in questo lavoro mi sono occupato di relizzare alcuni custom script e la parametrizzazione di alcuni plugin di wordpress </p></div>
           <div class="boxOfJob"> <p>Marzo 2014:</br> Completamento del sito web <a href="http://ilgiustocondominio.it" target="_blank">Il giusto condominio</a> sito web realizzato in joomla 3.0 mi sono occupato della parametrizzazione dei plugin</p></div>
@@ -87,12 +76,14 @@
         </div>
 
         <div id="scuola" class="col-md-12 col-xs-12">
+          <a id="anchorScuola"></a>
           <div class="boxOfJob"> <p>Giugno/luglio 2010:</br> Stage presso <a href="http://agenzia.provincia.milano.it" target="_blank">afol</a></p></div>
           <div class="boxOfJob"> <p>Luglio 2011:</br> Diploma presso <a href="http://www.curiesraffa.it/" target="_blank">ITIS Marie Curie</a></p></div>
           <div class="boxOfJob"> <p>Settembre 2011:</br> inizio studi presso il dipartimento di informatica dell'università degli studi di milano</p></div>
         </div>
 
         <div id="contatti" class="col-md-12 col-xs-12">
+            <a id="anchorContatti"></a>
             <p>Se volete contattarmi potete farlo tramite i seguenti contatti:<br>
                 <div class="col-md-2"><a href="mailto:bestbug.corporation@gmail.com"><i class="fa fa-envelope-o fa-5x"></i></a>&nbsp;&nbsp; </div>
                 <div class="col-md-2"><a href="https://twitter.com/Bestbug456"><i class="fa fa-twitter fa-5x"></i></a>&nbsp;&nbsp;  </div>
@@ -100,6 +91,21 @@
                 <div class="col-md-2"><a href="https://github.com/bestbug456/"><i class="fa fa-github fa-5x"></i></a>&nbsp;&nbsp; </div>
                 <div class="col-md-2"><a href="https://keybase.io/bestbug"><i class="fa fa-key fa-5x"></i></a> </div>
                 <div class="col-md-2"><a href="skype:bestbug_456"><i class="fa fa-skype fa-5x"></i></a></div></p>
+        </div>
+
+        <div id="changefix" class="col-md-12 col-xs-12 sfondoTail text-left"><ul>
+          <a id="anchorChangefix"></a>
+          <li><p>30-09-2014: correzione del testo nella sezione 'portfolio' aggiunte le row di bootstrap</p></li>
+          <li><p>23-09-2014: rifatti gli effetti di fadeIn e fadeOut sia per il "chi sono" che per le varie sezioni, aggiunta sezione dei contatti e inserito le icone di awesome font</p></li>
+          <li><p>22-09-2014: Corretto il testo del portfolio e aggiornato mediaquery per gestire gli schermi dell'iphone5s</p></li>
+          <li><p>08-08-2014: Oltre che essere un giorno speculare rispetto al mese è anche il giorno in cui da mobile il logo di <a href="http://www.bestbugstudio.com">bestbugstudio</a> si vede centrato e non più spostato verso destra</p></li>
+          <li><p>07-08-2014: Fixato un problema di visualizzazione di presentazione in "chi sono": ora il div ha una dimensione fissa ed evita un fastidioso glitch, tramite le media query di bootstrap aggiorno la dimensione a seconda di pc o telefonini</p></li>
+          <li><p>07-08-2014: implementata la colonna con i lavori più importanti svolti dal 2012 ad oggi e la mia carriera scolastica</p></li>
+          <li><p>07-08-2014: implementata la responsività con <a href="http://getbootstrap.com/getting-started/#template">bootstrap</a></p></li>
+          <li><p>07-08-2014: implementata la pagina dei changefix e dei lavori fatti con <a href="http://www.bestbugstudio.com" target="_blank">bestbugstudio</a></p></li>
+          <li><p>06-08-2014: implementate le funzioni base della pagina portfolio e il "chi sono"</p></li>
+          
+          </ul>
         </div>
     </div>
     </div> 

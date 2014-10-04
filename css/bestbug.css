@@ -52,9 +52,9 @@ a:hover{
     border-color: gray;
     margin: 5px;
     border-radius: 5px;
-    background-color: rgba(49, 176, 213,0.2);
+    /*background-color: rgba(255, 255, 255,0.2);*/
 }
-
+/*
 #portfolio{
 	display: block;
 }
@@ -69,11 +69,11 @@ a:hover{
 }
 #contatti{
 	display: none;
-	background-color: rgba(49, 176, 213,0.2);
+	background-color: rgba(255, 255, 255,0.2);
 	border-radius: 5px;
 	background-size: 300px; 
 }
-
+*/
 #fixglich{
 	height: 300px;
 }
@@ -82,13 +82,13 @@ a:hover{
 }
 
 .sfondoTail{
-	background-color: rgba(49, 176, 213,0.2);
+	/*background-color: rgba(255, 255, 255,0.2);
 	border-radius: 5px;
-	width: 100%;
+	width: 100%;*/
 }
 .myButton{
 	border: 3px solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255,0.2);
     margin: 5px;
     border-radius: 5px;
 
