@@ -3,6 +3,14 @@ $(document).ready(
     function () {
         $('#attr1').fadeIn(1000);
 
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+           $(".page").css("height","100%");
+        }else{
+          var altezza = $(window).height();
+          $(".page").css("height",altezza);
+        }
+
+
         $('#showPortfolio').click(function(){
             $('html, body').animate({
            'scrollTop':   $('#anchorPortfolio').offset().top
