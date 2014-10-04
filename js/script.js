@@ -161,26 +161,21 @@ $(document).ready(
         var $nextEle="";
         setInterval(function () {
             if ($i==$MAX_ELE){
-                $($('#attr4')).fadeTo("slow", 0.00, function(){ //fade
-                     $(this).slideUp("slow", function() { //slide up
-                         $(this).remove(); //then remove from the DOM
-                     });
-                 });
+                $($('#attr4')).fadeOut(1500);
                 $i=1;
                 $nextEle =$($element+$i);
-                $nextEle.fadeTo("slow", 0.00, function(){ //fade
-                     $(this).slideUp("slow", function() { //slide up
-                         $(this).remove(); //then remove from the DOM
-                     });
+                $nextEle.delay(1500).fadeIn(1500);
             }else{
                 $actualEle = $($element + $i);
                 $nextEle =$($element+($i+1));
                 $i = $i +1;
-                $actualEle.toggle("slide").animate({ opacity: 0 }, 1000);
-                $nextEle.animate({ opacity: 1 }, 1000).show("slide", { direction: "right" }, 1000);
-            }
-        }, 4000);
 
+                $actualEle.fadeOut(1500);
+                $nextEle.delay(1500).fadeIn(1500);
+            }
+               // $actualEle.toggle("slide").animate({ opacity: 0 }, 1000);
+               // $nextEle.animate({ opacity: 1 }, 1000).show("slide", { direction: "right" }, 1000);
+        }, 4000);
         
     }
 );
