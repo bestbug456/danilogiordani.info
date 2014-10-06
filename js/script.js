@@ -7,7 +7,35 @@ $(document).ready(
            $(".page").css("height","100%");
         }else{
           var altezza = $(window).height();
-          $(".page").css("height",altezza);
+          var altezzaPort = document.getElementById('portfolio').clientHeight;
+          var altezzaLavori = document.getElementById('lavori').clientHeight;
+          var altezzaContatti = document.getElementById('contatti').clientHeight;
+          var altezzaScuola = document.getElementById('scuola').clientHeight;
+          var altezzaChangefix = document.getElementById('changefix').clientHeight;
+          
+          var actualMax = altezza;
+
+          if (altezzaPort>actualMax) {
+            actualMax = altezzaPort;
+          };
+
+          if (altezzaLavori > actualMax) {
+            actualMax = altezzaLavori;
+          };
+
+          if (altezzaContatti > actualMax) {
+            actualMax = altezzaContatti;
+          };
+
+          if (altezzaScuola > actualMax) {
+            actualMax = altezzaScuola;
+          };
+
+          if (altezzaChangefix > actualMax) {
+            actualMax = altezzaChangefix;
+          };
+
+          $(".page").css("height",actualMax);
         }
 
 
