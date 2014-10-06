@@ -7,15 +7,6 @@
 	#fixglich{
 		height: 330px;
 		font-size: 25px;
-	} 
-	img{
-		max-width: 280px;
-	}
-	.myButton{
-		width: 100%;
-	}
-	#menu{
-		width: 100%;
 	}
 }
 @media (min-width: 475px){
@@ -85,4 +76,3 @@ a:hover{
     width: 100%;
     text-align: left;
 }
-
