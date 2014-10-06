@@ -76,3 +76,9 @@ a:hover{
     width: 100%;
     text-align: left;
 }
+
+#footer{
+	margin-top: 50px;
+	font-size: 11px;
+}
+
