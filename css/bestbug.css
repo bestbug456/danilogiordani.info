@@ -8,19 +8,27 @@
 		height: 330px;
 		font-size: 25px;
 	}
+	.StartContent{
+		padding-top: 60px;
+	}
 }
 @media (min-width: 475px){
 	#menu{
 		padding-top: 40px;
 	}
 }
-
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
 p{
 	font-family: AppleFont;
 }
 
 body{
 	background-color: rgb(230, 87, 61);
+	 padding-top: 60px;
 
 }
 a{
@@ -54,9 +62,9 @@ a:hover{
 	display: none;
 }
 */
-#contentContatti{
+/*#contentContatti{
 	padding-top: 20%;
-}
+}*/
 
 #fixglich{
 	height: 300px;
