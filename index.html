@@ -36,16 +36,10 @@
   </head>
   <body>
     
-    <div align="center" class="container" >
+    <div align="center" class="container container-fluid" >
       <div class="row">
-      <div  class="col-md-12 col-xs-12 " id="">
-            <!--<img src="bbs_logo_triangoli.png">-->
-          
-          
-      </div>
-
-      <nav class="navbar navbar-default hidden-md navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+        <nav class="navbar navbar-default hidden-md hidden-lg navbar-fixed-top" role="navigation">
+        
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -54,7 +48,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Men&ugrave</a>
+            <a class="navbar-brand" href="#">Menu</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,28 +56,34 @@
             <ul class="nav navbar-nav">
               <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showPortfolio"><i class="fa fa-book fa-lg"></i>Portfolio</a></li>
               <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showLavori"><i class="fa fa-wrench fa-lg"></i>Lavori</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showScuola"><i class="fa fa-graduation-cap fa-lg"></i> Carriera scolastica</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showContatti"><i class="fa fa-envelope fa-lg"></i> Contattami</a></li>
-              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showChangefix"><i class="fa fa-history fa-lg"></i> Changefix</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showScuola"><i class="fa fa-graduation-cap fa-lg"></i>Carriera scolastica</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showContatti"><i class="fa fa-envelope fa-lg"></i>Contattami</a></li>
+              <li><a data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-default" href="#" id="showChangefix"><i class="fa fa-history fa-lg"></i>Changefix</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+        
       </nav>
-      <div id="menu">
+      </div>
+      <div class="row">
         <h3>
           <p>Ciao sono Danilo e sono: <div> <a id="attr1" class="whatAmI">web developer</a><a id="attr2" class="whatAmI">frontend developer</a><a id="attr3" class="whatAmI">android developer</a><a id="attr4" class="whatAmI">videogamer :D</a></p></div>
-          </h3>
-        <div class="hidden-xs col-md-2 lateralbar">
-          <button type="button" class="btn btn-default myButton" href="#" id="showPortfolio"><i class="fa fa-book fa-lg"></i>&nbsp; Portfolio&nbsp;</button>
-          <button type="button" class="btn btn-default myButton" href="#" id="showLavori"><i class="fa fa-wrench fa-lg"></i>&nbsp; Lavori&nbsp;</button>
-          <button type="button" class="btn btn-default myButton" href="#" id="showScuola">&nbsp;<i class="fa fa-graduation-cap fa-lg"></i> Carriera scolastica</button>
-          <button type="button" class="btn btn-default myButton" href="#" id="showContatti"><i class="fa fa-envelope fa-lg"></i>&nbsp; Contattami</button>
-          <button type="button" class="btn btn-default myButton" href="#" id="showChangefix"><i class="fa fa-history fa-lg"></i>&nbsp; Changefix&nbsp;</button>
-        </div>
+        </h3>
       </div>
 
+      <div class="row">
+
+        <div id="menu">
+            <div class="hidden-xs hidden-sm col-md-2 lateralbar">
+              <button type="button" class="btn btn-default myButton" href="#" id="showPortfolio"><i class="fa fa-book fa-lg"></i>&nbsp; Portfolio&nbsp;</button>
+              <button type="button" class="btn btn-default myButton" href="#" id="showLavori"><i class="fa fa-wrench fa-lg"></i>&nbsp; Lavori&nbsp;</button>
+              <button type="button" class="btn btn-default myButton" href="#" id="showScuola">&nbsp;<i class="fa fa-graduation-cap fa-lg"></i> Carriera scolastica</button>
+              <button type="button" class="btn btn-default myButton" href="#" id="showContatti"><i class="fa fa-envelope fa-lg"></i>&nbsp; Contattami</button>
+              <button type="button" class="btn btn-default myButton" href="#" id="showChangefix"><i class="fa fa-history fa-lg"></i>&nbsp; Changefix&nbsp;</button>
+            </div>
+        </div>
+
       </div>
-      <div class="row col-md-offset-2 col-md-10">
+      <div class="col-md-offset-2 col-md-10">
         <div id="portfolio" class="col-md-12 col-xs-12 sfondoTail text-left page">
         
           <hr >
@@ -92,9 +92,7 @@
           <p>Sono Danilo Giordani e sono (oltre quello che ho già scritto) uno studente <a href="http://www.unimi.it" target="_blank">dell'università degli studi di milano</a> oltre che co-founder di <a href="http://www.bestbugstudio.com" target="_blank">bestbugstudio</a>. Il mio colore preferito è l'arancione, amo i videogame (la mia serie preferita è bioshock) e studiare tecniche per migliorare lo sviluppo front-end dei siti web, vi chiedo scusa già da adesso se ci saranno errori di UX e/o di codice,anzi se volete segnalarmi qualcosa potete contattarmi via <a href="mailto:bestbug.corporation@gmail.com">email</a>.</br> Nel tempo libero studio UX chiedendo aiuto al mio guru personale dell'argomento <a href="http://www.michelepierangeli.com" target="_blank">Michele Pierangeli</a>. Sono nato come back-end developer in <a href="http://it.wikipedia.org/wiki/Active_Server_Pages" target="_blank">Asp</a> successivamente ho scoperto (e amato) <a href="http://it.wikipedia.org/wiki/Php" target="_blank">PHP</a> oltre che le <a href="http://it.wikipedia.org/wiki/JavaServer_Pages" target="_blank">JSP</a>.Ho studiato <a href="http://it.wikipedia.org/wiki/MySQL" target="_blank">mySQL</a> e di recente il paradigma di progettazione e programmazione per dispositivi mobili in particolare per <a href="http://it.wikipedia.org/wiki/Android" target="_blank">android</a>. Nell'estate del 2014 come bestbugstudio abbiamo deciso di affittare un <a href="http://it.wikipedia.org/wiki/Virtual_private_server" target="_blank">vps</a> per poter fare hosting i siti web da prodotti noi, mi sono occupato quindi assieme a <a href="http://www.federicomaggi.me" target="_blank">Federico Maggi</a> del setup dell'ambiente. Attualmente sto finendo i miei studi e sto studiando tecniche di progettazione e mantenimento del software. Per quanto riguarda le web tecnologies sto studiando <a href="http://it.wikipedia.org/wiki/JQuery" target="_blank">jquery</a> e come si può vedere sto implementando qualche effetto (che spero vi piaccia :D), nel Changelog ci sono le modifiche che farò per tenere traccia dell'evoluzione del sito, mentre per chi volesse delle info più dettagliate può trovare tutte le informazioni su repo di <a href="https://github.com/bestbug456/danilogiordani.info">github</a></p>
 
         </div>
-
-
-
+        
         <div id="lavori" class="col-md-12 col-xs-12 page text-left" >   
           <hr>
           <a id="anchorLavori"></a>
