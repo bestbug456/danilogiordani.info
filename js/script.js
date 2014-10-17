@@ -65,6 +65,32 @@ $(document).ready(
          }, 2000);
         });
 
+        $('#showPortfoliomobile').click(function(){
+            $('html, body').animate({
+           'scrollTop':   $('#anchorPortfolio').offset().top
+         }, 2000);
+        });
+        $('#showLavorimobile').click(function(){
+            $('html, body').animate({
+           'scrollTop':   $('#anchorLavori').offset().top
+         }, 2000);
+        });
+        $('#showScuolamobile').click(function(){
+            $('html, body').animate({
+           'scrollTop':   $('#anchorScuola').offset().top
+         }, 2000);
+        });
+        $('#showContattimobile').click(function(){
+            $('html, body').animate({
+           'scrollTop':   $('#anchorContatti').offset().top
+         }, 2000);
+        });
+        $('#showChangefixmobile').click(function(){
+            $('html, body').animate({
+           'scrollTop':   $('#anchorChangefix').offset().top
+         }, 2000);
+        });
+
         var $element = '#attr';
         var $MAX_ELE = 4;
         var $i=1;

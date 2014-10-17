@@ -1,6 +1,5 @@
 @font-face{
-	font-family: AppleFont; src: url('../fonts/applefont/myriad-set-pro_ultralight.ttf')format('truetype');  
-	font-weight: bold;
+	font-family: AppleFont; src: url('../fonts/applefont/myriad-set-pro_text.ttf')format('truetype'); 
 }
 
 @media (max-width: 569px) { 
