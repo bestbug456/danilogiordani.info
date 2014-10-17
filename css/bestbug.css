@@ -1,21 +1,14 @@
 @font-face{
-	font-family: AppleFont; src: url('../fonts/applefont/myriad-set-pro_ultralight.ttf')format('truetype');  
-	font-weight: bold;
+	font-family: AppleFont; src: url('../fonts/applefont/myriad-set-pro_text.ttf')format('truetype'); 
 }
 
 @media (max-width: 569px) { 
 	#fixglich{
 		height: 330px;
 		font-size: 25px;
-	} 
-	img{
-		max-width: 280px;
 	}
-	.myButton{
-		width: 100%;
-	}
-	#menu{
-		width: 100%;
+	.StartContent{
+		padding-top: 60px;
 	}
 }
 @media (min-width: 475px){
@@ -23,13 +16,18 @@
 		padding-top: 40px;
 	}
 }
-
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
 p{
 	font-family: AppleFont;
 }
 
 body{
 	background-color: rgb(230, 87, 61);
+	 padding-top: 60px;
 
 }
 a{
@@ -90,3 +88,4 @@ a:hover{
 	margin-top: 50px;
 	font-size: 11px;
 }
+
