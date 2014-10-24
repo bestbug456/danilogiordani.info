@@ -46,11 +46,6 @@ a:hover{
 	position: fixed;
 }
 
-#portfolio{
-	height: 100%;
-	width: 100%;
-}
-
 #contentContatti{
 	padding-top: 20%;
 }
@@ -68,7 +63,8 @@ a:hover{
 .myButton{
 	border: 3px solid;
     border-color: rgba(255, 255, 255,0.2);
-    margin: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
     border-radius: 5px;
     text-align: left;
 }
