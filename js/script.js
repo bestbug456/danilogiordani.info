@@ -3,45 +3,6 @@ $(document).ready(
     function () {
         $('#attr1').fadeIn(1000);
 
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-           $(".page").css("height","100%");
-        }else{
-          var altezza = $(window).height();
-          var altezzaPort = document.getElementById('portfolio').clientHeight;
-          var altezzaLavori = document.getElementById('lavori').clientHeight;
-          var altezzaContatti = document.getElementById('contatti').clientHeight;
-          var altezzaScuola = document.getElementById('scuola').clientHeight;
-          var altezzaChangefix = document.getElementById('changefix').clientHeight;
-          var altezzaPagina = 0;
-
-          var actualMax = altezza;
-
-          if (altezzaPort>altezza) {
-            $(".pagePortfolio").css("height",altezzaPort);
-          }else{
-            altezzaPagina = altezza - altezzaPort - document.getElementById('helloShow').clientHeight;
-            alert(document.getElementById('helloShow').clientHeight);
-            alert(altezzaPagina);
-            $(".pagePortfolio").css("height",altezzaPagina);
-          }
-
-          if (altezzaLavori > actualMax) {
-            actualMax = altezzaLavori;
-          };
-
-          if (altezzaContatti > actualMax) {
-            actualMax = altezzaContatti;
-          };
-
-          if (altezzaScuola > actualMax) {
-            actualMax = altezzaScuola;
-          };
-
-          if (altezzaChangefix > actualMax) {
-            actualMax = altezzaChangefix;
-          };
-        }
-
 
         $('#showPortfolio').click(function(){
             $('html, body').animate({

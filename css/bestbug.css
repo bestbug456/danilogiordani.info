@@ -41,11 +41,35 @@ a:hover{
 
 .whatAmI{
 	display: none; 
+    width:100%;
 }
 
 .lateralbar{
 	position: fixed;
 }
+@media (min-width: 1024px){
+    #portfolio{
+        height:100%;
+    }
+
+    #lavori{
+        height:100%;
+    }
+    #scuola{
+        margin-top: 20%;
+        height:100%;   
+    }
+    #contatti{
+        height:100%;
+        margin-bottom: 20%;
+    }
+
+    #changefix{
+        height:100%;
+        margin-bottom: 50px;
+    }
+}
+
 
 #contentContatti{
 	padding-top: 20%;
