@@ -12,12 +12,18 @@ $(document).ready(
           var altezzaContatti = document.getElementById('contatti').clientHeight;
           var altezzaScuola = document.getElementById('scuola').clientHeight;
           var altezzaChangefix = document.getElementById('changefix').clientHeight;
-          
+          var altezzaPagina = 0;
+
           var actualMax = altezza;
 
-          if (altezzaPort>actualMax) {
-            actualMax = altezzaPort;
-          };
+          if (altezzaPort>altezza) {
+            $(".pagePortfolio").css("height",altezzaPort);
+          }else{
+            altezzaPagina = altezza - altezzaPort - document.getElementById('helloShow').clientHeight;
+            alert(document.getElementById('helloShow').clientHeight);
+            alert(altezzaPagina);
+            $(".pagePortfolio").css("height",altezzaPagina);
+          }
 
           if (altezzaLavori > actualMax) {
             actualMax = altezzaLavori;
@@ -34,8 +40,6 @@ $(document).ready(
           if (altezzaChangefix > actualMax) {
             actualMax = altezzaChangefix;
           };
-
-          $(".page").css("height",actualMax);
         }
 
 
