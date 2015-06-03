@@ -24,7 +24,7 @@ $(function() {
                 url: "http://formspree.io/bestbug.corporation@gmail.com",
                 method: "POST",
                 data: {
-                    message: name.append(" ").append(message).append(" ").append(email)
+                    message: name+" "+message+" "+email
                 },
                 dataType: "json",
                 cache: false,
