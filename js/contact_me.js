@@ -22,13 +22,11 @@ $(function() {
             }
             $.ajax({
                 url: "http://formspree.io/bestbug.corporation@gmail.com",
-                type: "POST",
+                method: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    message: name.append(" ").append(message).append(" ").append(email)
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Enable button & show success message
