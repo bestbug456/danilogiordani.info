@@ -2,8 +2,10 @@
 layout: post
 title: danilogiordani.info - migrazione a jekyll
 modal-id: 1
+website: www.danilogiordani.info
 date: 2015-06-04
 img: danilogiordani.png
+alt: danilogiordani
 project-date: Giugno 2015
 Client: Me stesso! :D
 Tecnologie-utilizzate: HTML5, CSS3, JEKYLL
