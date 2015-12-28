@@ -1,33 +1,47 @@
 # Site settings
-title: Danilo Giordani
+title: daniloGiordani
 email: bestbug.corporation@gmail.com
-url: https://www.danilogiordani.info
-description: "Ciao sono un web developer e spero di aiutarti :)"
+url: https://bestbug456.github.io/danilogiordani
+description: "Ciao sono Danilo sono un web developer, spero di aiutarti :)"
+skills: "Web Developer - Mobile analyst - Videogamer"
+meta_author: Danilo Giordani
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
 contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: e67e22 
-  secondary: d35400 
-  secondary-dark: d35400 
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
   copyright: Danilo Giordani
-  location: Dove sono
+  location: Milano
   social: Around the Web
   credits: power by bestbug studio
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: key
-    url: https://keybase.io/bestbug
-  - title: skype
-    url:  skype:bestbug_456
   - title: twitter
     url: https://twitter.com/Bestbug456
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/3049386/bestbug
   - title: linkedin
     url: https://www.linkedin.com/profile/view?id=141450964&trk=nav_responsive_tab_profile_pic
   - title: github
@@ -35,11 +49,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Milano, Lombardia
-
+  - line: Milano
 
 # Credits content
-credits: Questo sito è hostato da <a href="www.bestbugstudio.com">Bestbug studio</a>
+credits: 'Ci vediamo sul web!'
 
 # Build settings
 markdown: kramdown

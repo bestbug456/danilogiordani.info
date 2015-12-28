@@ -6,13 +6,11 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-            // Prevent spam click and default submit behaviour
-            $("#btnSubmit").attr("disabled", true);
-            event.preventDefault();
-            
+            event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
+            var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -20,16 +18,17 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://formspree.io/bestbug.corporation@gmail.com",
-                method: "POST",
+                url: "././mail/contact_me.php",
+                type: "POST",
                 data: {
-                    message: name+" ha scritto: "+message+" e questa è la mail: "+email
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
                 },
-                dataType: "json",
                 cache: false,
                 success: function() {
-                    // Enable button & show success message
-                    $("#btnSubmit").attr("disabled", false);
+                    // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -64,7 +63,8 @@ $(function() {
     });
 });
 
-// When clicking on Full hide fail/success boxes
+
+/*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
