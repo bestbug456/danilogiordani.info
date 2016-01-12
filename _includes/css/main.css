@@ -208,7 +208,6 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
-    height: 202px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -220,6 +219,10 @@ section.success {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+}
+
+#img-portfolio{
+    height: 200px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
