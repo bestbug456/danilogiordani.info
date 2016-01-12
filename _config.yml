@@ -1,13 +1,13 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Il sito di bestbug!
+email: bestbug.corporation@gmail.com
 baseurl: /danilogiordani.info
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Ciao sono Danilo e mi occupo di tecnologie per il web e i dispositivi mobili"
+skills: "Web Developer - Mobile Developer - Videogamer :D"
+meta_author: Danilo Bestbug
 
 # Google webmaster tools
-google_verify:
+google_verify: 
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -24,38 +24,35 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: E67E22 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Danilo "Bestbug" Giordani
+  location: Milano
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+    url: https://twitter.com/Bestbug456
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://stackoverflow.com/users/3049386/bestbug
+  - title: linkedin
+    url: https://www.linkedin.com/profile/view?id=141450964&trk=nav_responsive_tab_profile_pic
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/bestbug456/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Milano
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Ci vediamo sul web!'
 
 # Build settings
 markdown: kramdown
