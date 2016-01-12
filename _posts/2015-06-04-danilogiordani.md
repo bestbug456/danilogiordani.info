@@ -3,7 +3,7 @@ layout: post
 title: danilogiordani.info - migrazione a jekyll
 modal-id: 7
 website: www.danilogiordani.info
-date: 2015-06-04
+date: 2015-06-11
 img: danilogiordani.png
 alt: danilogiordani
 project-date: Giugno 2015

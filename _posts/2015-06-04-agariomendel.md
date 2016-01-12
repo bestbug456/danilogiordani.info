@@ -3,7 +3,7 @@ layout: post
 title: Comitato genitori - Comitato Agrario Mendel
 modal-id: 4
 website: agrariomendel.comitatogenitori.org/
-date: 2015-06-04
+date: 2015-06-08
 img: cg-agrariomendel.png
 alt: agrariomendel
 project-date: Marzo 2013

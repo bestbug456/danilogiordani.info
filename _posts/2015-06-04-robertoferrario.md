@@ -7,7 +7,7 @@ date: 2015-06-04
 img: robertoferrariocoach.png
 alt: robertoferrariocoach
 project-date: Febbraio 2015
-Client: Me stesso! :D
+Client: Roberto Ferrario
 Tecnologie-utilizzate: Wordpress, CSS3, Javascript 
 description: In questo lavoro ci siamo occupati della revisione grafica del sito di Roberto Ferrario, manager coach accreditato ICF e Trainer PNL 
 

@@ -3,7 +3,7 @@ layout: post
 title: lo spettacolo della sicurezza 
 modal-id: 6
 website: www.lospettacolodellasicurezza.it
-date: 2015-06-04
+date: 2015-06-10
 img: lospettacolodellasicurezza.png
 alt: lospettacolodellasicurezza
 project-date: Aprile 2015

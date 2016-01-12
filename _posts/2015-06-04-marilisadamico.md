@@ -3,7 +3,7 @@ layout: post
 title: Marilisa D'Amico
 modal-id: 5
 website: www.marilisadamico.it
-date: 2015-06-04
+date: 2015-06-09
 img: marilisadamico.png
 alt: marilisadamico
 project-date: Marzo 2014
