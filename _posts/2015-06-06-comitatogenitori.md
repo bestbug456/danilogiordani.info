@@ -3,7 +3,7 @@ layout: post
 title: Comitato Genitori
 modal-id: 3
 website: agrariomendel.comitatogenitori.org/
-date: 2015-06-07
+date: 2015-06-06
 img: cg-comitatogenitori.png
 alt: comitatogenitori
 project-date: Marzo 2013
