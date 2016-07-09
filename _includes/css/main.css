@@ -15,15 +15,6 @@ p {
 p.small {
     font-size: 16px;
 }
-/*
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #{{ site.color.primary }};
-}*/
 
 h1,
 h2,
