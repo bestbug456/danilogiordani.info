@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danilo Giordani</title>
+    <description>Ciao sono un web developer e spero di aiutarti :)</description>
+    <link>https://www.danilogiordani.info/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 05 Jun 2015 20:02:23 +0200</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2015 20:02:23 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>lo spettacolo della sicurezza</title>
+        <description>In questo progetto assieme a Federico mi sono occupato della realizzazione del tema e dello sviluppo backend del sito. Il sito ha come scopo dare la possiblità di prenotare dei film sulla sicurezza da far vedere agli studenti delle scuole medie e superiori.</description>
+        <pubDate>Thu, 04 Jun 2015 00:00:00 +0200</pubDate>
+        <link>https://www.danilogiordani.info/2015/06/04/lospettacolodellasicurezza/</link>
+        <guid isPermaLink="true">https://www.danilogiordani.info/2015/06/04/lospettacolodellasicurezza/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>danilogiordani.info - migrazione a jekyll</title>
+        <description>ho deciso di provare a utilizzare un sistema per inserire in maniera più comoda i nuovi lavori, ma nulla mi vieterebbe di creare poi un blog apposito per sfruttare questa feature se la trovo abbastanza comoda</description>
+        <pubDate>Thu, 04 Jun 2015 00:00:00 +0200</pubDate>
+        <link>https://www.danilogiordani.info/2015/06/04/danilogiordani/</link>
+        <guid isPermaLink="true">https://www.danilogiordani.info/2015/06/04/danilogiordani/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
